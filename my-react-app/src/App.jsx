@@ -170,6 +170,17 @@ function App() {
         <a className="header-order" href="tel:+231779075108">Call us <span aria-hidden="true">↗</span></a>
       </header>
 
+      <section className="visual-banner" aria-label="Today's kitchen highlight">
+        <div className="visual-banner-image" aria-hidden="true" />
+        <div className="visual-banner-content">
+          <p className="visual-banner-kicker">TODAY FROM THE KITCHEN</p>
+          <h2>Slow food.<br /><em>Big flavor.</em></h2>
+          <p>Follow the aroma to something delicious.</p>
+          <a href="#menu">See what&apos;s cooking <span aria-hidden="true">↗</span></a>
+        </div>
+        <span className="visual-banner-badge" aria-hidden="true">FRESH<br />DAILY</span>
+      </section>
+
       <main>
         <section className="hero" id="home" aria-labelledby="hero-title">
           <img
